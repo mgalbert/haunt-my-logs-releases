@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "version": "0.9.0-rc2",
+  "tag": "v0.9.0-rc2",
+  "promotionId": "HML-090RC2-20261030-01",
+  "distributionRepository": "mgalbert/haunt-my-logs-releases",
+  "publicTagMeaning": "Independent public distribution commit and approved artifact hashes; not a development-source checkout",
+  "archive": "haunt_my_logs-0.9.0-rc2.tgz",
+  "archiveBytes": 13581469,
+  "archiveSha256": "8aa8569de677b1ca05d368664e74e3febd0c39411612c17273ab73597dfa6597",
+  "topLevelDirectory": "haunt_my_logs/",
+  "memberCount": 39,
+  "members": {
+    "LICENSE": "a5df01292edc668fb9051be5c17ae19073abbe03708346a8145a8700a79e6401",
+    "README/CHANGELOG.md": "256121ec2d6d5b22c620dbb633c39910c3ecf0efaaee3aa8b95a1815413bac99",
+    "README/DEMO-CAPTURE.md": "9418d7fe0c948fcdaa38b221e1ed525bc7dd36b081774fef83685f4ad21728c9",
+    "README/INSTALL.md": "16338ae8daa8f25cf31d726dd34780c035411a463ffcaca5461331129af64aa8",
+    "README/KNOWN-LIMITATIONS.md": "c8e08c28c89e2041c10aee52bb944420d82ab2714897723c36ee258677dcd28a",
+    "README/PUBLICATION-CHECKLIST.md": "01c5bfb1fe8170d9555474e31f93ac06cbe8ce3d4da82e16d01d401cd0325106",
+    "README/README.md": "f3b3fd6ff64b64303f3fc27c9b009acbe4138bbbbc96a56afedca087f0aea686",
+    "README/REQUIREMENTS.md": "cc6f983d21191ccddc4ca241041d85d8f6a098d9b9c379ff15d1ff7968cf98c5",
+    "README/ROLLBACK.md": "57dbc28a00d42814d9a60e53c7e50f49d26e952e980ecb8af9f44ce60d95b84a",
+    "README/SECURITY.md": "8128552c567fa7e73d2b06055de3136fc6363ec7cdcc2eb613ac17e704f6588b",
+    "appserver/static/web/adapter.js": "11009a3962b09b769f6dcaae1000c852df21e52752adf70ab262bec91e0b135d",
+    "appserver/static/web/app.js": "08ed1d2a37c3459f4a3ff002394ce9d6fb44ff76c04ef5a4c753b702cbc7f2b3",
+    "appserver/static/web/assets/LICENSE-original.txt": "a5df01292edc668fb9051be5c17ae19073abbe03708346a8145a8700a79e6401",
+    "appserver/static/web/assets/PROVENANCE.md": "babb6066a03a57f492bcd8312254f4e0e0ed7377c67b57b30402dceda6f151a0",
+    "appserver/static/web/assets/VSCO-CC0.txt": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+    "appserver/static/web/assets/foundation.wav": "45431c1f381349cb1a67d6d4c3cccbc9402777549121783d231ababede0b3755",
+    "appserver/static/web/assets/high.wav": "fcbefa8af97a5c0aae63391cadc21eb7cb895fa05d06d58a5410c5d865803c9b",
+    "appserver/static/web/assets/medium.wav": "db58ff7372e0a54c61dacc6bf6282857a4bd88d084a6ca970d492d9ce2264007",
+    "appserver/static/web/assets/metal-impact.wav": "5a9bfda7feba7c56e7296160df8f6b580cfd61472bb93dfb6fdbb4db14aaf6f3",
+    "appserver/static/web/assets/source-manifest.json": "a1eb93d15b8bf025ae8306a5783cf4f1bd83c43ca1b118bd568409979953a4e0",
+    "appserver/static/web/assets/string-stab.wav": "443051d347976e3d764719f38fb8e187dfd75bd773f4308cc3b79eaa52ec9d79",
+    "appserver/static/web/audio.js": "9b0b33f41c957fd58ad91769f19836bfa5b40dd2a73a2aa9a90760b348a3f436",
+    "appserver/static/web/composer.js": "f842ba7334654367b876c35a937380d84ad8ff5fa05ae27b528eaa4b8b6fd9ae",
+    "appserver/static/web/demo.js": "fdb28215b17e6b5b11cd7edbd678282a32fabaf47fc40ccd0ebae11754743464",
+    "appserver/static/web/index.html": "cc57712af70121d12251e74a64428344841d09c60b027473b56398c9ad597a45",
+    "appserver/static/web/studio.js": "21d29464c8b2a4ac2f084aa2350e4e85306185fd36068d41fd83a624d865232a",
+    "appserver/static/web/style.css": "bc6b44914eafeb8bedb2fbcbc76f15334e51563bf467b11992cb2ca814083706",
+    "bin/endpoint.py": "5cbb00d3da3677024155644fcf975b5c3982c12c525cb8bd65673a34948ff45e",
+    "bin/grammar.py": "2f345fb7638b5cf664d8e64d21676a8805bcc87975d4d24ac78ee8f47423c46f",
+    "bin/runtime.py": "a8e3a116543347e855d60fedd9824dfc2d0084f0d236077feb88e891da86c39c",
+    "bin/service.py": "5ef1f90ad0a491a5011881e2425fe7509988a867266fe6cbdf80467aebe71c8e",
+    "default/app.conf": "bbfe71de917c1aef32d87509b619ddbb1a3b3df0570fef7c087b7f6216d7901d",
+    "default/data/ui/nav/default.xml": "78c58f79773d8fd4b267b10b6de5cfca422d87957dd941dc00d196dd04e3d632",
+    "default/data/ui/views/listening_room.xml": "9e688849f9a5e2d2e2524f2724afb2fb0c549d2bbb12583d4d08e19bef6056b4",
+    "default/props.conf": "0e5948064b9e3a9259305f4ab17c53af16c0c187f8c749faef8f0f2400b78cb4",
+    "default/restmap.conf": "5605c313e3458aac264d9bb70ee106994604652a42eed9d2d541621ca62a3bad",
+    "default/web.conf": "7f9b8817564adcabc1ca15168389b2c0fd822b65687f10147d47b12f571493b8",
+    "demo/generate_fixture.py": "993aaa8557973b9c220323c41494c8a255d16951e17d31f41815bbd8b53ee17c",
+    "metadata/default.meta": "e1d376fdff0eff0511da0336373009cdd968381cba64a74b5ed1f6d5e9fa0880"
+  },
+  "testedEnvironments": [
+    {
+      "splunkEnterpriseVersion": "10.2.8",
+      "build": "981c2d735e4d",
+      "deployment": "standalone",
+      "os": "Ubuntu 24.04.5 LTS x86-64",
+      "kernel": "6.8.0-147-generic",
+      "installationPrefix": "/opt/splunk",
+      "embeddedPython": "3.13",
+      "browser": "Chrome 155.0.8059.82 on Windows",
+      "vCPU": 4,
+      "ramGiB": 16,
+      "diskGiB": 100,
+      "testDate": "2026-10-30"
+    },
+    {
+      "splunkEnterpriseVersion": "10.6.1.1",
+      "build": "b2ae2962645c",
+      "deployment": "standalone",
+      "os": "Ubuntu 24.04.5 LTS x86-64",
+      "kernel": "6.8.0-147-generic",
+      "installationPrefix": "/opt/splunk",
+      "embeddedPython": "3.13",
+      "browser": "Chrome 155.0.8059.82 on Windows",
+      "vCPU": 4,
+      "ramGiB": 16,
+      "diskGiB": 100,
+      "testDate": "2026-10-30"
+    }
+  ],
+  "acceptance": {
+    "functional": "Functionally tested with documented limitations",
+    "fullUnqualifiedAcceptance": "NOT VERIFIED",
+    "naturalRuntimeDeadlineExpiry": {
+      "10.2.8": "NOT VERIFIED",
+      "10.6.1.1": "NOT VERIFIED"
+    },
+    "literalInstalledMemberEquality": {
+      "10.2.8": "FAIL: installer modifies default/app.conf; 38/39 match",
+      "10.6.1.1": "FAIL: installer modifies default/app.conf; 38/39 match"
+    },
+    "codeAndStaticIntegrity": "PASS on both exact tested versions",
+    "cleanRestrictedRoleLauncherConsole": {
+      "10.2.8": "FAIL: Object exception also on bundled Search; standalone app functional",
+      "10.6.1.1": "PASS within test scope: exception not reproduced; no vendor fix inferred"
+    },
+    "distinctSameUserBrowserSessions": {
+      "10.2.8": "NOT VERIFIED",
+      "10.6.1.1": "PASS within two independent browser-context test scope"
+    },
+    "effectiveRoleDefaults": "Differ between tested versions; no operator broadening",
+    "loggedOutBrowserCompose": {
+      "10.2.8": "Prevented; HTTP 401 recorded",
+      "10.6.1.1": "Prevented; HTTP 303 redirect recorded"
+    },
+    "pcmCasesPerVersion": 24,
+    "humanListening": "Separate confirmations for both soundtracks and A/B effects in each installed synthetic sequence"
+  },
+  "sourceAvailability": "Readable application source, license notices and audio provenance are included in the installer; no separate source archive in this distribution set",
+  "archiveReproductionToolchain": "Windows CPython 3.14.6 x64 / zlib-ng 2.2.4; matching member bytes alone do not guarantee identical compressed bytes",
+  "historicalEmbeddedDocumentation": "Unchanged installer contains obsolete preparation/uninstalled/10.4.x text and five missing README links; current public companion documents supersede them",
+  "securityReporting": {
+    "dedicatedPrivateChannelOffered": false,
+    "ownerDecision": "Do not implement GitHub Private Vulnerability Reporting or establish a dedicated reporting service/contact address for this experimental MVP",
+    "capabilityTestedOrEnabled": false,
+    "publicIssuesConfidential": false,
+    "disclosure": "No dedicated private vulnerability-reporting channel is currently offered. Public GitHub issues are not confidential; do not post credentials, raw logs, sensitive native captures, customer data or sensitive exploit details."
+  },
+  "provenanceBoundary": "Source-to-artifact and test-evidence mapping is retained internally; this manifest describes public distribution identity only",
+  "checksums": "SHA256SUMS covers the other eleven Release Assets and excludes itself"
+}
