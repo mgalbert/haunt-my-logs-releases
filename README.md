@@ -4,6 +4,14 @@ Turn a bounded Splunk snapshot into a haunted soundtrack, with two tracks, A/B
 effects and an inspectable histogram. Music interprets counts; it is not an
 incident diagnosis or a production monitoring system.
 
+## Download Haunt My Logs v0.9.0-rc2
+
+**[Download the Splunk app installer (.tgz)](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/haunt_my_logs-0.9.0-rc2.tgz)**
+
+[Installation instructions](releases/0.9.0-rc2/INSTALL.md) · [SHA256 checksums](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/SHA256SUMS) · [All release downloads](https://github.com/mgalbert/haunt-my-logs-releases/releases/tag/v0.9.0-rc2)
+
+**Experimental prerelease:** intended for isolated testing, not production monitoring. Use an administrator-approved Splunk test instance.
+
 ## Watch the Demo
 
 **What if you could hear anomalies in your Splunk data?**
@@ -21,11 +29,7 @@ Development history, internal test evidence and release credentials are excluded
 
 ## Install 0.9.0-rc2
 
-Use this repository's Releases page and select the **v0.9.0-rc2 prerelease**.
-Download `haunt_my_logs-0.9.0-rc2.tgz` and `SHA256SUMS` from Assets.
-This is a locally prepared candidate; the proposed public repository and release
-have not been created by this preparation. Release access must be verified after
-separately authorized publication.
+Download the [v0.9.0-rc2 installer](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/haunt_my_logs-0.9.0-rc2.tgz) and [SHA256SUMS](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/SHA256SUMS) from the published prerelease. Follow the [installation instructions](releases/0.9.0-rc2/INSTALL.md) before installing.
 GitHub's automatic Source code ZIP/tarball contains distribution-repository files;
 it is not the Splunk installer. No Python, Node or source build is needed.
 
@@ -69,4 +73,4 @@ Exact compressed-byte reproduction requires **Windows CPython 3.14.6 x64 with
 zlib-ng 2.2.4**, the toolchain used for the verified release reproduction. Identical
 member/source bytes can compress differently on another toolchain. Matching member
 hashes establishes member equivalence; it does not establish archive byte identity.
-No build or publication workflow is included in this distribution candidate.
+No build or publication workflow is included in this distribution repository.
