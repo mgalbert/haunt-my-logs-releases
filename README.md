@@ -43,6 +43,8 @@ See [installation](releases/0.9.0-rc2/INSTALL.md),
 
 The exact RC2 installer was functionally tested on standalone Splunk Enterprise
 10.2.8 and 10.6.1.1, Ubuntu 24.04.5 LTS at /opt/splunk, Windows Chrome 155.
+Earlier development and integration testing also included Splunk Enterprise 10.4.3;
+this does not constitute final RC2 installer validation on 10.4.3.
 This does not certify version families, other platforms or production use.
 Natural timeout expiry remains unverified; the compatibility matrix retains the
 installer metadata difference, launcher finding and session-isolation limits.
