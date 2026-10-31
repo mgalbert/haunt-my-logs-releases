@@ -4,6 +4,18 @@ Turn a bounded Splunk snapshot into a haunted soundtrack, with two tracks, A/B
 effects and an inspectable histogram. Music interprets counts; it is not an
 incident diagnosis or a production monitoring system.
 
+## Watch the Demo
+
+**What if you could hear anomalies in your Splunk data?**
+
+Watch a 45-second synthetic-data demonstration of Haunt My Logs, featuring
+interactive telemetry sonification, synchronized visualizations and anomaly-focused
+playback.
+
+**[Watch Demo 2 — Featured Video](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/Haunt-My-Logs-Demo-2-1080p.mp4)**
+
+[Watch Demo 1 — Original Walkthrough](https://github.com/mgalbert/haunt-my-logs-releases/releases/download/v0.9.0-rc2/Haunt-My-Logs-Demo-1-1080p.mp4)
+
 This independent distribution repository is for reviewed Haunt My Logs releases.
 Development history, internal test evidence and release credentials are excluded.
 
